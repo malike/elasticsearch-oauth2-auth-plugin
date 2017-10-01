@@ -27,7 +27,7 @@ public class ElasticOAuth2PluginTest {
 
         private static Node node;
         private static ElasticsearchClusterRunner runner;
-        private static final String CLUSTER_NAME = "RECOMMENDATION_CLUSTER";
+        private static final String CLUSTER_NAME = "OAUTH2_CLUSTER";
         private static final String CLUSTER_HOST_ADDRESS = "localhost:9201-9210";
         private static final String INDEX = "dummydata";
         private static final int DOC_SIZE = 1000;
